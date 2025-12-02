@@ -1,0 +1,10 @@
+name: Runshell Command
+on: [push]
+
+jobs:
+    run-shell-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Run a one-line script
+              run: echo "Hello, World!"
+
